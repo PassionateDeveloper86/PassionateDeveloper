@@ -1,0 +1,86 @@
+.block {
+  background: #282c34;
+  border-radius: 5px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.donut-chart-block {
+  overflow: hidden;
+}
+
+.donuttextbig
+{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.donuttextsmall
+{
+    width: 300px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.donut-chart {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+  border-radius: 100%
+}
+
+.donut-chart .center {
+  background: #282c34;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  height: 100px;
+  width: 140px;
+  padding-top: 40px;
+  border-radius: 70px;
+  font-size: 40px;
+}
+
+.clip {
+  border-radius: 50%;
+  clip: rect(0px, 200px, 200px, 100px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.item {
+  border-radius: 50%;
+  clip: rect(0px, 100px, 200px, 0px);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+#section1 {
+  transform: rotate(0deg);
+}
+
+#section1 .item {
+  background-color: #00CCFF;
+  transform: rotate(180deg);
+}
+
+#section2 {
+  transform: rotate(180deg);
+}
+
+#section2 .item {
+  background-color: #00CCFF;
+}
+
+#section3 {
+}
+
+#section3 .item {
+  background-color: white;
+}

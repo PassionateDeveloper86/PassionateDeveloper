@@ -1,0 +1,12 @@
+.area6
+{
+   background-image: url("../images/bg7.jpg");
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-color: #161616;
+   display: flex;
+   justify-content: top;
+   align-items: center;
+   flex-direction: column;
+   padding-bottom: 70px;
+}

@@ -1,0 +1,279 @@
+.expContainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    width: 1000px;
+    border: 0px solid red;
+}
+
+.expMiddle
+{
+    width: 10px;
+    background-color: white;
+    height: calc(100% + 50px);
+    position: relative;
+}
+
+.expFirst
+{
+    margin-top: 50px;
+}
+
+.expLast
+{
+    height: 50px;
+}
+ 
+.expFirst > .expMiddleRoundWhite
+{
+    top: -18px;
+}
+
+.expFirst > .expMiddleRound
+{
+    top: -14px;
+}
+
+.expMiddleRoundWhite
+{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-radius: 15px;
+    border: 14px solid white;
+    left: -9px;
+    top: 31px;
+}
+
+.expMiddleRound
+{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-radius: 15px;
+    border-left: 10px solid #00CCFF;
+    border-right: 10px solid  #00CCFF;
+    border-top: 10px solid #00CCFF;
+    border-bottom: 10px solid #00CCFF;
+    left: -5px;
+    top: 35px;
+}
+
+.expSmallBoxSpacer, .expBigBoxSpacer
+{
+    padding-top: 20px;
+    width: 420px;
+    border: 0px solid red;
+    display: flex;
+}
+
+.expBigBoxSpacer
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.expSmallBox
+{
+    background-color: #00CCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    border: 0px solid red;
+    margin-top: 5px;
+}
+
+  .expSmallBox:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 100%;
+	top: 10px;
+	border: 15px solid transparent;
+	border-left: none;
+    border-right-color: #00CCFF;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+
+.expBigBox
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: black;
+    position: relative;
+    border: 0px solid red;
+}
+
+.expBigBox:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 100%;
+	top: 15px;
+	border: 15px solid transparent;
+	border-right: none;
+    border-left-color: white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.expTitle
+{
+    color: #00CCFF;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.expSubTitle
+{
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.expText
+{
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+.expRightSmallBoxSpacer, .expRightBigBoxSpacer
+{
+    padding-top: 20px;
+    width: 420px;
+    border: 0px solid red;
+    
+}
+
+.expRightSmallBoxSpacer
+{
+    display: flex;
+    justify-content: right;
+}
+
+.expRightBigBox:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	Right: 100%;
+	top: 15px;
+	border: 15px solid transparent;
+	border-left: none;
+    border-right-color: white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.expRightBigBox
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: black;
+    position: relative;
+    border: 0px solid red;
+}
+
+
+.expRightSmallBox
+{
+    background-color: #00CCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45px;
+    width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    border: 0px solid red;
+    margin-top: 5px;
+}
+
+  .expRightSmallBox:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	Left: 100%;
+	top: 10px;
+	border: 15px solid transparent;
+	border-right: none;
+    border-left-color: #00CCFF;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.expLink, .expLink:hover, .expLink:visited
+{
+    color: #00CCFF !important;
+    display: flex;
+}
+
+.expLinkIcon
+{
+    margin-right: 5px;
+    padding-top: 4px;
+}
+
+.certArea
+{
+    cursor: pointer;
+    background-color: white !important;
+    width: 75px;
+    padding-right: 5px;
+    margin-top: 5px;    
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.certAreaRight
+{
+    cursor: pointer;
+    background-color: white !important;
+    width: 75px;
+    padding-right: 5px;
+    margin-top: 5px;    
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.certText
+{
+    color: blacK;
+    font-size: 12px;
+    width: 260px;
+}

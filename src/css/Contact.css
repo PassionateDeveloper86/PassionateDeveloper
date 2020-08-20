@@ -1,0 +1,103 @@
+.contactArea
+{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.contactName
+{
+    color: #00CCFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nameArea
+{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nameArea > div
+{
+    display:flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+.nameArea > div > div:first-child
+{
+    padding-right: 30px;
+    padding-top: 3px;
+}
+
+.fieldSpace
+{
+    padding-bottom: 20px;
+}
+
+.contactFormArea {
+    width: 500px;
+}
+
+.MuiInput-underline::before,
+.textField::before
+{
+    border-bottom: 2px solid #00CCFF !important;
+}
+
+.textField
+{
+    color: White !important;
+}
+
+.labelTextField
+{
+    color: white !important;
+}
+
+.notchedTextField
+{
+    color: red;
+}
+
+.buttonSend
+{
+    color: white !important;
+    background-color: #00CCFF !important;
+    padding: 10px !important;
+    width: 300px !important;
+    margin-top: 20px !important;
+}
+
+.buttonSend:hover
+{
+    color: #282c34 !important;
+    font-weight: bold;
+}
+
+/* .buttonArea
+{
+    text-align: left;
+} */
+
+.contactError
+{
+    margin-top: 10px;
+    font-weight: bold;
+    color:red;
+    font-size: 14px;
+    font-style:italic;
+}
+
+.succededContact
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: green;
+}

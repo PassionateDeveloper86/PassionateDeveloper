@@ -1,0 +1,73 @@
+.educationArea
+{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.eduMeArea
+{
+    border: 0px solid red;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.arrowArea
+{
+    width: 400px;
+    border: 0px solid red;
+    position: relative;
+    color:black;
+    margin-top: 45px;
+    margin-right: 100px;
+}
+
+.eduBox
+{
+    height: 80px;
+    width: 270px;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    position: absolute;
+    right: -190px;
+}
+
+.eduBox1
+{
+    top: 16px;
+}
+
+.eduBox2
+{
+    top: 156px;
+}
+
+
+.eduBox3
+{
+    top: 298px;
+}
+
+.eduTitle
+{
+    color: #00CCFF;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.eduSubTitle
+{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.eduText
+{
+    color: black;
+    font-style: italic;
+    font-size: 12px;
+}

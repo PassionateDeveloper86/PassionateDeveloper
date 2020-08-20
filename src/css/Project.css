@@ -1,0 +1,68 @@
+.projectContainer
+{
+    height: 290px;
+    width: 260px;
+    border: 0px solid red;
+    background-color: black;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 5px;
+}
+
+.projectButton
+{
+    background-color: #00CCFF;
+    border: 0px solid;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color:white;
+    font-weight: bolder;
+    margin-top: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    
+}
+
+.projectButtonSpace
+{
+    margin-right: 20px;
+}
+
+.caru
+{
+    width: 900px
+}
+
+.projectBorder
+{
+    border: 1px solid gray;
+    width: 260px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.projectTitle
+{
+    color: white;
+}
+
+.projectSubTitle
+{
+    color: #00CCFF; 
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.projectChildren
+{
+    font-size: 12px;
+    font-style: italic;
+    padding-top: 10px;
+}

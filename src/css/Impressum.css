@@ -1,0 +1,16 @@
+.impressumArea
+{
+    height: 20px;
+    background-color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+.impressumText{
+    background-color: black;
+    height: 300px;
+    overflow: auto;
+    padding: 50px;
+}
